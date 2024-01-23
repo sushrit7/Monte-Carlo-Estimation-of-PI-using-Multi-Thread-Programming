@@ -44,7 +44,6 @@ int main(){
       threadids[i] = i;
       pthread_create(&threads[i], NULL, montecarlo, &threadids[i]);
     }
-    //(void*)&threadids[i]                                                                                                                                                                                                                    
 
     for(int i = 0; i < NUMTHREADS; i++)
     {
