@@ -19,18 +19,19 @@ The Monte Carlo method is a statistical technique that uses random sampling to o
 
    ```bash
    git clone https://github.com/yourusername/monte-carlo-pi-estimation.git
-   cd monte-carlo-pi-estimation
+
 
 2. Compile the program:
 
-  ```bash
-  gcc montecarlo.c -o montecarlo -pthread
-  ```
+     ```bash
+     gcc montecarlo.c -o montecarlo -pthread
+     ```
 
 3. Run the executable:
-   ```bash
-   ./montecarlo
-   ```
+   
+      ```bash
+      ./montecarlo
+      ```
 View the estimated value of PI in the output.
 
 ## Code Structure
